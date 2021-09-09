@@ -1,0 +1,10 @@
+n1 = float(input("Digite Primeiro numero: "))
+n2 = float(input("Digite segundo numero"))
+n3 = float(input("Digite terceiro numero"))
+n4 = float(input("Digite quarto numero"))
+
+lista_nota = (n1,n2,n3,n4)
+print(sum(lista_nota))
+print(len(lista_nota))
+media = sum(lista_nota) / len(lista_nota)
+print (media)
